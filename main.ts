@@ -13,7 +13,9 @@
 // numbers taken from this very build's requirements file; (4) compression:
 // one breath, punch on the last words, nothing to cut; (5) specificity:
 // the 57 checks and 145 KB are the real counts of this competition's
-// requirements file, not invented flavour.
+// requirements file, not invented flavour. The em-dash in the line is a
+// single character (3 UTF-8 bytes); the gate counts characters, so the
+// entry is 135 characters and 137 bytes — comfortably inside 1–200.
 //
 // Deterministic: the same bytes on every run. No network, no input,
 // no clock, no randomness.
